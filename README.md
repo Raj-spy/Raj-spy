@@ -5,7 +5,7 @@ Engineering student focused on DevOps and cloud-native application deployment. I
 ## Skills
 - **DevOps & Tools:** Docker, Git, GitHub, Linux (basic), CI/CD fundamentals  
 - **Backend:** Node.js, Express  
-- **Databases:**PostgreSQL  , Supabase
+- **Databases:** PostgreSQL  , Supabase
 - **Languages:** JavaScript, Python, C++  
 - **Frontend (supporting):** React, Next.js
 
