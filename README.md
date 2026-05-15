@@ -1,35 +1,38 @@
 # Raj Tayde
 
-DevOps / Cloud Engineer · B.Tech CS · Indore, India  
-Building toward production-grade infrastructure — containers, pipelines, and cloud-native systems.
+**DevOps / Cloud Engineer (Fresher)** · B.Tech CS · Indore, India  
+Building production-grade infrastructure — containers, pipelines, and cloud-native systems.
 
 ---
 
 ## What I Work With
 
-**DevOps & Cloud:** Docker · Linux · GitHub Actions · AWS (EC2, S3, IAM, ECR) · Kubernetes · Nginx · Bash · YAML  
+**DevOps & Cloud:** Docker · Linux · GitHub Actions · AWS (EC2, S3, IAM, ECR, ALB) · Kubernetes (LFS158 certified) · Terraform · Helm · Nginx · Bash · YAML  
 **Monitoring:** Prometheus · Grafana · custom alerting  
-**Backend:** FastAPI · Node.js · Express.js · REST APIs · JWT/OAuth  
-**Databases:** PostgreSQL · Supabase · Redis
+**Backend:** FastAPI · REST APIs · JWT/OAuth  
+**Databases:** Supabase · Redis  
 **Languages:** Python · JavaScript · Bash  
 
 ---
 
 ## Projects
 
-**[LLM Drift Monitor](https://llm-drift-monitor-pi.vercel.app)** — Observability SaaS · Live in Production  
-Monitors LLM response drift across providers (OpenAI, Groq, Anthropic).  
-FastAPI · Next.js · Supabase · Railway · Vercel · GitHub Actions CI/CD  
-Real-time spike detection, alerting system, multi-provider support.
+### [LLM Drift Monitor](https://llm-drift-monitor-pi.vercel.app) — Observability SaaS · Live in Production  
+Monitors LLM response drift across 9 providers (OpenAI, Groq, Anthropic).  
+**Stack:** FastAPI · Next.js · Supabase · Railway · Vercel  
+**Infra:** Docker multi-stage builds · GitHub Actions CI/CD · Prometheus/Grafana alerting · Terraform for AWS backup environments  
+**What it does:** Real-time spike detection, alerting system, multi-provider support.
 
-**[Movie Sentiment API](https://github.com/Raj-spy/Movie-api)** — DevOps Pipeline Project  
-FastAPI sentiment service · Redis caching · Docker multi-stage build (151MB → 100MB)  
-GitHub Actions matrix testing (Python 3.9/3.11) · Prometheus metrics · Docker Swarm  
-GitFlow strategy · flake8 lint · pytest · secrets management
+### [Movie Sentiment API](https://github.com/Raj-spy/Movie-api) — DevOps Pipeline Project  
+FastAPI sentiment service with Redis caching.  
+**Optimization:** Docker image 151MB → 100MB (multi-stage Alpine, non-root container)  
+**Pipeline:** GitHub Actions matrix testing (Python 3.9/3.11) · flake8 · pytest · automated Docker validation  
+**Deploy:** Docker Swarm (3 replicas) · HEALTHCHECK · zero-downtime rolling updates · Prometheus metrics  
+**GitFlow strategy · secrets management**
 
-**[Exam AI](https://github.com/Raj-spy)** — AI-Powered Test Platform  
-MCQ generation from topic + difficulty using Groq LLM · secure shareable exam links  
-Per-student analytics · LLM Drift Monitor integrated for production observability
+### [Exam AI](https://github.com/Raj-spy/AI-powered-exam-platform) — AI-Powered Test Platform  
+MCQ generation from topic + difficulty using Groq LLM · secure shareable exam links · per-student analytics  
+**Observability:** LLM Drift Monitor integrated for production drift tracking
 
 ---
 
@@ -46,14 +49,15 @@ Per-student analytics · LLM Drift Monitor integrated for production observabili
 ## Experience
 
 **IT Intern · Indore Municipal Corporation** _(Dec 2025 – Jan 2026)_  
-Analyzed workflows across 4+ departments · identified infrastructure gaps  
-Delivered 10+ prioritized recommendations for automation and modernization
+Analyzed workflows across 4+ departments · identified infrastructure gaps and single points of failure  
+Delivered 10+ prioritized recommendations for containerization, CI/CD adoption, and monitoring integration
 
 ---
 
 ## Certifications
 
-- Introduction to Kubernetes (LFS158) · Linux Foundation · Oct 2025
+- **Introduction to Kubernetes (LFS158)** · The Linux Foundation · Oct 2025  
+  ID: LF-x8idlr17nj
 - Data Engineering on AWS · ETL, S3, Glue, Redshift
 - AI-Driven Entrepreneurship
 
