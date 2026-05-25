@@ -23,12 +23,12 @@ Monitors LLM response drift across 9 providers (OpenAI, Groq, Anthropic).
 **Infra:** Docker multi-stage builds · GitHub Actions CI/CD · Prometheus/Grafana alerting · Terraform for AWS backup environments  
 **What it does:** Real-time spike detection, alerting system, multi-provider support.
 
-### [Movie Sentiment API](https://github.com/Raj-spy/Movie-api) — DevOps Pipeline Project  
-FastAPI sentiment service with Redis caching.  
-**Optimization:** Docker image 151MB → 100MB (multi-stage Alpine, non-root container)  
-**Pipeline:** GitHub Actions matrix testing (Python 3.9/3.11) · flake8 · pytest · automated Docker validation  
-**Deploy:** Docker Swarm (3 replicas) · HEALTHCHECK · zero-downtime rolling updates · Prometheus metrics  
-**GitFlow strategy · secrets management**
+### [Movie Sentiment API](https://github.com/Raj-spy/Movie-api) — DevOps Pipeline Project
+**Infra:** Terraform · multi-AZ EKS · hybrid On-Demand + Spot nodes  
+**Pipeline:** OIDC-based GitHub Actions CD · Trivy scan · ECR · Helm rolling deploy  
+**Reliability:** HPA autoscaling · liveness/readiness probes · Redis graceful degradation  
+**Optimization:** Docker image 90% reduction (1GB → 100MB) · matrix tested Python 3.9/3.11
+
 
 ### [Exam AI](https://github.com/Raj-spy/AI-powered-exam-platform) — AI-Powered Test Platform  
 MCQ generation from topic + difficulty using Groq LLM · secure shareable exam links · per-student analytics  
@@ -40,7 +40,6 @@ MCQ generation from topic + difficulty using Groq LLM · secure shareable exam l
 
 - **Jenkins Contributor** — PR #482 merged in `jenkinsci/echarts-api-plugin`  
   Fixed build number cropping in ECharts diagrams (JENKINS-58404)
-- **GSoC 2026** — Proposal submitted for Retool Jenkins.io Contributor Spotlight Website
 - **GDG Cloud Indore** — Vue.js components, UI fixes, performance optimizations  
   for community website used by 1,000+ developers
 
@@ -58,8 +57,6 @@ Delivered 10+ prioritized recommendations for containerization, CI/CD adoption, 
 
 - **Introduction to Kubernetes (LFS158)** · The Linux Foundation · Oct 2025  
   ID: LF-x8idlr17nj
-- Data Engineering on AWS · ETL, S3, Glue, Redshift
-- AI-Driven Entrepreneurship
 
 ---
 
