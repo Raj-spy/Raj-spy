@@ -1,6 +1,6 @@
 # Raj Tayde
 
-**DevOps / Cloud Engineer (Fresher)** · B.Tech CS · Indore, India  
+**DevOps Engineer** · B.Tech CS · Indore, India  
 Building production-grade infrastructure — containers, pipelines, and cloud-native systems.
 
 ---
