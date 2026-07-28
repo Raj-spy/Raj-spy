@@ -5,9 +5,15 @@ Building production-grade infrastructure — containers, pipelines, and cloud-na
 
 ---
 
+## Currently
+
+DevOps Intern @ **Winlancer Technologies** — own the infrastructure lifecycle for 7+ production applications serving 40K+ active users. Server provisioning, DNS/Nginx configuration, Bitbucket CI/CD pipelines, and production incident response
+
+---
+
 ## What I Work With
 
-**DevOps & Cloud:** Docker · Linux · GitHub Actions · AWS (EC2, S3, IAM, ECR, ALB) · Kubernetes (LFS158 certified) · Terraform · Helm · Nginx · Bash · YAML  
+**DevOps & Cloud:** Docker · Linux · GitHub Actions · Bitbucket Pipelines · AWS (EC2, S3, IAM, ECR, ALB) · Kubernetes (LFS158 certified) · Terraform · Helm · Nginx · Bash · YAML  
 **Monitoring:** Prometheus · Grafana · custom alerting  
 **Backend:** FastAPI · REST APIs · JWT/OAuth  
 **Databases:** Supabase · Redis  
@@ -46,6 +52,10 @@ MCQ generation from topic + difficulty using Groq LLM · secure shareable exam l
 ---
 
 ## Experience
+
+**DevOps Intern · Winlancer Technologies Pvt Ltd** _(Jul 2026 – Present)_  
+Own end-to-end infrastructure for 7+ production applications serving 40K+ active users · server provisioning, DNS/Nginx setup, Bitbucket CI/CD (dev → test → main) · production incident response and live rollbacks
+
 
 **IT Intern · Indore Municipal Corporation** _(Dec 2025 – Jan 2026)_  
 Analyzed workflows across 4+ departments · identified infrastructure gaps and single points of failure  
