@@ -7,7 +7,7 @@ Building production-grade infrastructure — containers, pipelines, and cloud-na
 
 ## Currently
 
-DevOps Intern @ **Winlancer Technologies** — own the infrastructure lifecycle for 7+ production applications serving 40K+ active users. Server provisioning, DNS/Nginx configuration, Bitbucket CI/CD pipelines, and production incident response
+DevOps Intern @ **Winlancer Technologies** — own the infrastructure lifecycle for 7+ production applications serving 40K+ active users. Server provisioning, DNS/Nginx configuration, Github Actions CI/CD pipelines, and production incident response
 
 ---
 
