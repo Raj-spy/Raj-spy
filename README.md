@@ -8,7 +8,7 @@ Building production infrastructure, automated delivery pipelines, and cloud-nati
 
 ## Currently
 
-**DevOps Intern @ Winlancer Technologies** — owning end-to-end infrastructure and deployment for **9+ production applications serving 40K+ active users**.
+**DevOps Intern @ Winlancer Technologies** — owning end-to-end infrastructure and deployment for **15+ production applications serving 40K+ active users**.
 
 ---
 
