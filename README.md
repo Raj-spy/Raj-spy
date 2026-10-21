@@ -27,15 +27,15 @@ Building production infrastructure, automated delivery pipelines, and cloud-nati
 
 ## Tech I Work With
 
-![Skills](https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,githubactions,prometheus,grafana,nginx,linux,bash,python,fastapi,nextjs,postgres,redis&theme=dark)
+![Skills](https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,githubactions,prometheus,grafana,nginx,linux,python,fastapi,nextjs,postgres,redis&theme=dark)
 
-**DevOps & Cloud:** Docker · Linux · GitHub Actions · Bitbucket Pipelines · AWS (EC2, S3, IAM, ECR, ALB, EKS) · Kubernetes · Terraform · Helm · ArgoCD · Nginx · Bash · YAML
-**Networking & Infrastructure:** DNS · Cloudflare · Reverse Proxy · TCP/IP · VPC · Subnets · Firewall · SSL/Certbot · Server Administration
-**Security & Code Quality:** Fail2Ban · Trivy · SonarQube · OIDC · IAM least privilege
-**Monitoring:** Prometheus · Grafana · Custom Alerting
-**Backend:** FastAPI · REST APIs · JWT/OAuth
-**Databases:** PostgreSQL · MSSQL · Supabase · Redis
-**Languages:** Python · JavaScript · Bash
+| | |
+|---|---|
+| **Delivery** | GitHub Actions · Bitbucket Pipelines · Helm · ArgoCD · Terraform |
+| **Cloud & Infra** | AWS (EC2, EKS, ECR, ALB, IAM, S3) · Nginx · Cloudflare · Linux |
+| **Security & Quality** | Trivy · SonarQube · Fail2Ban · OIDC |
+| **Observability** | Prometheus · Grafana · Custom alerting |
+| **Code & Data** | Python · FastAPI · JavaScript · PostgreSQL · MSSQL · Supabase · Redis |
 
 ---
 
