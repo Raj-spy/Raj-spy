@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140" role="img" aria-label="Delivery pipeline">
+  <style>
+    .box { fill: #111827; stroke: #374151; stroke-width: 1.5; }
+    .last { fill: #111827; stroke: #3b82f6; stroke-width: 2; animation: pulse 2.5s ease-in-out infinite; }
+    .t { fill: #f9fafb; font: 600 14px -apple-system, Segoe UI, Helvetica, Arial, sans-serif; text-anchor: middle; }
+    .s { fill: #9ca3af; font: 400 11px -apple-system, Segoe UI, Helvetica, Arial, sans-serif; text-anchor: middle; }
+    .flow { stroke: #3b82f6; stroke-width: 2; stroke-dasharray: 6 6; fill: none; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -24; } }
+    @keyframes pulse { 0%,100% { stroke-opacity: 1; } 50% { stroke-opacity: 0.35; } }
+  </style>
+
+  <rect class="box" x="10"  y="40" width="140" height="64" rx="8"/>
+  <rect class="box" x="190" y="40" width="140" height="64" rx="8"/>
+  <rect class="box" x="370" y="40" width="140" height="64" rx="8"/>
+  <rect class="box" x="550" y="40" width="140" height="64" rx="8"/>
+  <rect class="last" x="730" y="40" width="140" height="64" rx="8"/>
+
+  <text class="t" x="80"  y="68">Commit</text>      <text class="s" x="80"  y="88">review + GitFlow</text>
+  <text class="t" x="260" y="68">Build &amp; Scan</text> <text class="s" x="260" y="88">tests + vuln checks</text>
+  <text class="t" x="440" y="68">Deploy</text>      <text class="s" x="440" y="88">rolling, zero downtime</text>
+  <text class="t" x="620" y="68">Observe</text>     <text class="s" x="620" y="88">metrics + alerts</text>
+  <text class="t" x="800" y="68">Recover</text>     <text class="s" x="800" y="88">safe rollback</text>
+
+  <path class="flow" d="M150 72 H190"/>
+  <path class="flow" d="M330 72 H370"/>
+  <path class="flow" d="M510 72 H550"/>
+  <path class="flow" d="M690 72 H730"/>
+</svg>
