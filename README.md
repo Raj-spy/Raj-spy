@@ -19,7 +19,7 @@ Building production infrastructure, automated delivery pipelines, and cloud-nati
 
 | Result | Number |
 |---|---|
-| Deploy time (manual FTP to CI/CD) | **~1 hour → under 1 minute (~98%)** |
+| Deploy time (manual FTP to CI/CD) | **~30 minutes → under 1 minute (~98%)** |
 | Backend API server load (Nginx caching) | **down 80%** |
 | Docker image size (own project) | **1 GB → 100 MB (90%)** |
 
@@ -27,7 +27,6 @@ Building production infrastructure, automated delivery pipelines, and cloud-nati
 
 ## Tech I Work With
 
-![Skills](https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,githubactions,prometheus,grafana,nginx,linux,python,fastapi,nextjs,postgres,redis&theme=dark)
 
 | | |
 |---|---|
